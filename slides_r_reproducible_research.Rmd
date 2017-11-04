@@ -5,6 +5,7 @@ output: ioslides_presentation
 ---
 
 ```{r setup, include=FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -12,11 +13,38 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Reproducible versus Replicable?
 
-## Why creating reproducible work is important - Integrity
+- Replication: does an independent experiment produce results consistant with another?
 
-## Why creating reproducible work is important - Usability
+- Reproduction: can the same result be achieved with the same data and methods?
 
-## Why creating reproducible work is important - Sanity
+## Why creating reproducible work is important
+
+<div align="center">
+<img src="images/capital_piketty.jpeg" width=800>
+</div>
+
+## Why creating reproducible work is important
+
+<div align="center">
+<img src="images/reinhart_excel.PNG" width=800>
+</div>
+
+- www.newyorker.com/news/john-cassidy/the-reinhart-and-rogoff-controversy-a-summing-up
+
+## Why creating reproducible work is important
+
+<div align="center">
+<img src="images/array_of_errors.PNG" width=600>
+</div>
+
+- www.economist.com/node/21528593
+
+## Why creating reproducible work is important
+
+<div align="center">
+<img src="images/versions.gif" width=325>
+</div>
+
 
 # Towards making your research reproducible
 
