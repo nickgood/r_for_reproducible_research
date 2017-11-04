@@ -210,9 +210,24 @@ Note that this grouping often happens naturally when using tidyverse functions, 
 We'll learn more about satisfying these guidelines when we talk about writing your own functions in the next part of the class.
 ## Version control
 
-## Code sharing
+# Code and data sharing
 
-## Markup
+## Choosing your sharing platform
+<br>
+<div align="center">
+<img src="images/arm.png" width=400>
+</div>
+<br>
+<div align="center">
+<img src="images/drive.png" width=450>
+</div>
+<div align="center">
+<img src="images/github.png" width=350>
+</div>
+
+# Markup
+
+
 
 # R tools for reproducible research
 
