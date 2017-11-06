@@ -585,3 +585,6 @@ GitHub allows you to host git repositories online. This allows you to:
 
 To push local repositories to GitHub and fork other people's repositories, you will need a GitHub account.
 
+# Example - cookstove research
+
+# Example - this talk
