@@ -360,9 +360,9 @@ pander::pander(chunk_opts2, split.cells = c(10, 50),
 
 Add these options in the opening brackets and separate multiple ones with commas:
 
-    `r ''````{r  messages = FALSE, echo = FALSE}
+```{r  messages = FALSE, echo = FALSE}
     nepali[1, 1:3]
-    ```
+```
 
 \bigskip 
 
@@ -374,10 +374,10 @@ You can set "global" options at the beginning of the document. This will create 
 
 For example, if you want `echo`, `warning`, and `message` to be `FALSE` by default in all code chunks, you can run: \bigskip
 
-    `r ''````{r  global_options}
+```{r  global_options}
     knitr::opts_chunk$set(echo = FALSE, message = FALSE,
       warning = FALSE)
-    ```
+```
 
 ## Global options
 
@@ -385,16 +385,15 @@ Options that you set specifically for a chunk will take precedence over global o
 
 For example, running a document with:
 
-    `r ''````{r  global_options}
+```{r  global_options}
     knitr::opts_chunk$set(echo = FALSE, message = FALSE,
       warning = FALSE)
-    ```
+```
 
-
-    `r ''````{r  check_nepali, echo = TRUE}
+```{r  check_nepali, echo = TRUE}
     head(nepali, 1)
-    ```
-    
+```
+
 would print the code for the `check_nepali` chunk.
 
 ## Inline code
@@ -588,8 +587,8 @@ Before you use git, you should configure it. For example, you should make sure i
 You can configure git with commands at the shell. For example, I would run the following code at a shell to configure git to have my proper user name and email:  
 
 ```
-git config --global user.name "Brooke Anderson"
-git config --global user.email "brooke.anderson@colostate.edu"
+git config --global user.name "Nick Good"
+git config --global user.email "n.good@colostate.edu"
 ```
 
 
@@ -652,9 +651,6 @@ In this window, to commit changes:
 
 Once you commit changes to files, they will disappear from the Git window until you make and save more changes in them.
 
-
-
-
 ### Browsing history 
 
 On the top left of the Commit window, you can toggle to "History". This window allows you to explore the history of commits for the repository.
@@ -680,8 +676,6 @@ You can sign up at https://github.com. A free account is fine.
 The basic unit for working in GitHub is the repository. You can think of a repository as very similar to an R Project--- it's a directory of files with some supplemental files saving some additional information about the directory. 
 
 While R Projects have this additional information saved as an ".RProj" file, git repositories have this information in a directory called ".git". Because this pathname starts with a dot, it won't show up in many of the ways you list files in a directory. From a shell, you can see files that start with `.` by running `ls -a` from within that directory. 
-
-
 
 
 ### Linking local repo to GitHub repo
