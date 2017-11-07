@@ -53,35 +53,35 @@ data(nepali)
 
 ## What makes research reproducible
 
-- Data availability
+- Data availability.
 
-- Code available (e.g. methods, data simulation, tables)
+- Code available (e.g. methods, data simulation, tables).
 
-- Documentation to assemble data and code to produce the results
+- Documentation to assemble data and code to produce the results.
 
 ## Some immediate advantages for you
 
-- Easily pick up where you left off (e.g. journal reviews months after submission)
+- Easily pick up where you left off (e.g. journal reviews months after submission).
 
-- Easily make adjustments and re-run your analysis
+- Easily make adjustments and re-run your analysis.
 
-- Full documentation from data collection to publication
+- Full documentation from data collection to publication.
 
-- Others can use your methods (increase opportunities for collaboration, citations)
+- Others can use your methods (increase opportunities for collaboration, citations).
 
 ## Some important practical steps
 
-- Link your analysis to the raw data and document how it was collected
-- The original data should remain unmodified
-- Avoid any "by hand" steps in your analysis
-- Include scripts that take the raw data through to the final results / figure / tables you publish
-- Include software versions
+- Link your analysis to the raw data and document how it was collected.
+- The original data should remain unmodified.
+- Avoid any "by hand" steps in your analysis.
+- Include scripts that take the raw data through to the final results / figure / tables you publish.
+- Include software versions.
 
 # Coding style
 
 ## Why is style important
 
-- Style guidelines provide rules for how to format code in a script
+- Style guidelines provide rules for how to format code in a script.
 
 - Following style guidelines offers some important advantages:
     + Clean code is easier to read and interpret.
@@ -189,8 +189,8 @@ Local chunk options will take precedence over global options.
 
 You can compile R Markdown documents to other formats:
 
-- Word
-- Pdf (requires that you've installed "Tex" on your computer, an essential tool for thesis production)
+- Word.
+- Pdf (requires that you've installed "Tex" on your computer, an essential tool for thesis production).
 
 \bigskip
 
@@ -221,7 +221,7 @@ To open a new R Markdown file that uses a template, in RStudio, go to "File" -> 
 
 ## Templates
 
-Different templates come with different R packages (including the `rmarkdown` package)
+Different templates come with different R packages (including the `rmarkdown` package).
 
 Many of these templates will only render to pdf (and requires TeX e.g. MacTeX or MiTex).
 
@@ -323,6 +323,18 @@ GitHub allows you to host git repositories online. This allows you to:
 - Suggest changes to other people's repositories through pull requests
 
 To push local repositories to GitHub and fork other people's repositories, you will need a GitHub account.
+
+## R packages on Github
+
+- Many R packages are available on GitHub.
+
+- Use the `devtools` package to install them.
+
+```{r echo = TRUE, eval = FALSE} 
+  install.packages("devtools")
+
+  devtools::install_github("hadley/dplyr")
+```
 
 # Example - cookstove research
 
