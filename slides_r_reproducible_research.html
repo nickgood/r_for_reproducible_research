@@ -139,28 +139,28 @@
 </article></slide><slide class=''><hgroup><h2>What makes research reproducible</h2></hgroup><article  id="what-makes-research-reproducible">
 
 <ul>
-<li><p>Data availability</p></li>
-<li><p>Code available (e.g. methods, data simulation, tables)</p></li>
-<li><p>Documentation to assemble data and code to produce the results</p></li>
+<li><p>Data availability.</p></li>
+<li><p>Code available (e.g. methods, data simulation, tables).</p></li>
+<li><p>Documentation to assemble data and code to produce the results.</p></li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Some immediate advantages for you</h2></hgroup><article  id="some-immediate-advantages-for-you">
 
 <ul>
-<li><p>Easily pick up where you left off (e.g. journal reviews months after submission)</p></li>
-<li><p>Easily make adjustments and re-run your analysis</p></li>
-<li><p>Full documentation from data collection to publication</p></li>
-<li><p>Others can use your methods (increase opportunities for collaboration, citations)</p></li>
+<li><p>Easily pick up where you left off (e.g. journal reviews months after submission).</p></li>
+<li><p>Easily make adjustments and re-run your analysis.</p></li>
+<li><p>Full documentation from data collection to publication.</p></li>
+<li><p>Others can use your methods (increase opportunities for collaboration, citations).</p></li>
 </ul>
 
 </article></slide><slide class=''><hgroup><h2>Some important practical steps</h2></hgroup><article  id="some-important-practical-steps">
 
 <ul>
-<li>Link your analysis to the raw data and document how it was collected</li>
-<li>The original data should remain unmodified</li>
-<li>Avoid any &quot;by hand&quot; steps in your analysis</li>
-<li>Include scripts that take the raw data through to the final results / figure / tables you publish</li>
-<li>Include software versions</li>
+<li>Link your analysis to the raw data and document how it was collected.</li>
+<li>The original data should remain unmodified.</li>
+<li>Avoid any &quot;by hand&quot; steps in your analysis.</li>
+<li>Include scripts that take the raw data through to the final results / figure / tables you publish.</li>
+<li>Include software versions.</li>
 </ul>
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Coding style</h2></hgroup><article  id="coding-style">
@@ -168,7 +168,7 @@
 </article></slide><slide class=''><hgroup><h2>Why is style important</h2></hgroup><article  id="why-is-style-important">
 
 <ul>
-<li><p>Style guidelines provide rules for how to format code in a script</p></li>
+<li><p>Style guidelines provide rules for how to format code in a script.</p></li>
 <li>Following style guidelines offers some important advantages:
 
 <ul>
@@ -289,8 +289,8 @@ knitr::opts_chunk$set(echo = FALSE,
 <p>You can compile R Markdown documents to other formats:</p>
 
 <ul>
-<li>Word</li>
-<li>Pdf (requires that you&#39;ve installed &quot;Tex&quot; on your computer, an essential tool for thesis production)</li>
+<li>Word.</li>
+<li>Pdf (requires that you&#39;ve installed &quot;Tex&quot; on your computer, an essential tool for thesis production).</li>
 </ul>
 
 <p></p>
@@ -324,7 +324,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 </article></slide><slide class=''><hgroup><h2>Templates</h2></hgroup><article  id="templates-1">
 
-<p>Different templates come with different R packages (including the <code>rmarkdown</code> package)</p>
+<p>Different templates come with different R packages (including the <code>rmarkdown</code> package).</p>
 
 <p>Many of these templates will only render to pdf (and requires TeX e.g. MacTeX or MiTex).</p>
 
@@ -433,6 +433,17 @@ knitr::opts_chunk$set(echo = FALSE,
 </ul>
 
 <p>To push local repositories to GitHub and fork other people&#39;s repositories, you will need a GitHub account.</p>
+
+</article></slide><slide class=''><hgroup><h2>R packages on Github</h2></hgroup><article  id="r-packages-on-github">
+
+<ul>
+<li><p>Many R packages are available on GitHub.</p></li>
+<li><p>Use the <code>devtools</code> package to install them.</p></li>
+</ul>
+
+<pre class = 'prettyprint lang-r'>  install.packages(&quot;devtools&quot;)
+
+  devtools::install_github(&quot;hadley/dplyr&quot;)</pre>
 
 </article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Example - cookstove research</h2></hgroup><article  id="example---cookstove-research">
 
