@@ -1,0 +1,38 @@
+
+
+h1 { 
+ color: #407157;
+}
+h2 { 
+ color: #407157;
+}
+
+
+li  { 
+ color: black;
+ font-size: 32px;
+}
+
+
+body, td {
+   font-size: 30px;
+}
+code.r{
+  font-size: 30px;
+}
+pre {
+  font-size: 30px
+}
+
+p  { 
+ color: black;
+ font-size: 32px;
+}
+
+h3  { 
+ color: black;
+}
+
+slides > slide.backdrop {
+  background: white;
+}
