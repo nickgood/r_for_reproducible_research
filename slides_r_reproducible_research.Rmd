@@ -17,7 +17,7 @@ data(nepali)
 
 ## Reproducible versus Replicable?
 
-- Replication: does an independent experiment produce results consistant with another?
+- Replication: does an independent experiment produce results consistent with another?
 
 - Reproduction: can the same result be achieved with the same data and methods?
 
@@ -53,7 +53,7 @@ data(nepali)
 
 ## What makes research reproducible
 
-- Data availibilty
+- Data availability
 
 - Code available (e.g. methods, data simulation, tables)
 
@@ -241,7 +241,7 @@ The `rticles` package has templates for several journals:
 
 ## Organization
 
-As you move to larger projects, you'll want to start keeping all materials for a project in a single directory. Subdirectories might include: 
+As you move to larger projects, you'll want to start keeping all materials for a project in a single directory. Sub directories might include: 
 
 - `data_raw`: Raw data.
 - `data`: Cleaned data, often saved as `.RData`.
