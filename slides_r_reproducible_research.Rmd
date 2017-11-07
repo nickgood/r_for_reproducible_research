@@ -310,9 +310,9 @@ When you want git to record changes, you *commit* the files with the changes. Ea
 
 GitHub allows you to host git repositories online. This allows you to: 
 
-- Work collaboratively on a shared repository
-- Fork someone else's repository to create your own copy that you can use and change as you want
-- Suggest changes to other people's repositories through pull requests
+- Work collaboratively on a shared repository.
+- Fork someone else's repository to create your own copy that you can use and change as you want.
+- Suggest changes to other people's repositories through pull requests.
 
 To push local repositories to GitHub and fork other people's repositories, you will need a GitHub account.
 
