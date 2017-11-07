@@ -1,7 +1,9 @@
 ---
 title: "Reproducible Research With R"
 author: "Nicholas Good - Environmental & Radiological Health Sciences - CSU"
-output: ioslides_presentation
+output:
+  ioslides_presentation:
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -49,11 +51,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## What makes research reproducible
 
-- data availibilty
+- Data availibilty
 
-- code/software available
+- Code available (e.g. methods, data simulation, tables, ...)
 
-- documentation to assemble data and code to produce the results
+- Documentation to assemble data and code to produce the results
 
 ## Some immediate advantages for you
 
