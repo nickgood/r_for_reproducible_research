@@ -33,7 +33,7 @@ data(nepali)
 <img src="images/reinhart_excel.PNG" width=800>
 </div>
 
-- www.newyorker.com/news/john-cassidy/the-reinhart-and-rogoff-controversy-a-summing-up
+- [Reinhart and Rogoff](https://www.newyorker.com/news/john-cassidy/the-reinhart-and-rogoff-controversy-a-summing-up)
 
 ## Why creating reproducible work is important
 
@@ -41,7 +41,7 @@ data(nepali)
 <img src="images/array_of_errors.PNG" width=600>
 </div>
 
-- www.economist.com/node/21528593
+- [Array of errors](http://www.economist.com/node/21528593)
 
 ## Why creating reproducible work is important
 
@@ -84,11 +84,10 @@ data(nepali)
 - Style guidelines provide rules for how to format code in a script
 
 - Following style guidelines offers some important advantages:
-    + Clean code is easier to read and interpret later.
-    + It’s easier to catch and fix mistakes when code is clear.
-    + Others can more easily follow and adapt your code if it’s clean.
-    + Some style guidelines will help prevent possible problems (e.g.,
-avoiding . in function names).
+    + Clean code is easier to read and interpret.
+    + Easier to catch and fix mistakes.
+    + Others can more easily follow and adapt your code.
+    + Help prevent problems (e.g., avoiding . in function names).
 
 ## R style guidelines
 
@@ -158,7 +157,7 @@ knitr::include_graphics("images/markdown_workflow.png")
 
 (Source: RMarkdown Cheatsheet, RStudio) \bigskip
 
-In essence, `knitr` allows you to write an R Markdown file that can be rendered into a pdf, Word, or HTML document.
+You can write an R Markdown file that can be rendered into a pdf, Word, or HTML document.
 
 ## Tips and notes: Naming chunks
 
@@ -345,4 +344,11 @@ To push local repositories to GitHub and fork other people's repositories, you w
 <img src="images/aim_2_branches.png" width=550>
 </div>
 
-# Example - this talk
+# Example - this class
+
+## [Github page](https://github.com/nickgood/r_for_reproducible_research)
+
+<div align="center">
+<img src="images/class_page.png" width=700>
+</div>
+
