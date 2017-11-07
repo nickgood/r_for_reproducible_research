@@ -30,14 +30,6 @@ data(nepali)
 ## Why creating reproducible work is important
 
 <div align="center">
-<img src="images/reinhart_excel.PNG" width=800>
-</div>
-
-- [Reinhart and Rogoff](https://www.newyorker.com/news/john-cassidy/the-reinhart-and-rogoff-controversy-a-summing-up)
-
-## Why creating reproducible work is important
-
-<div align="center">
 <img src="images/array_of_errors.PNG" width=600>
 </div>
 
